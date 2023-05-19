@@ -20,4 +20,4 @@
   6. Activities Records
      * According to the assignment description:
        * _"All trading activity (buys & sells) should be recorded."_
-     * However, since the assignment does not specify how the trading activity records should be used, I have decided to store all the activities in a file named "operationHistory.csv" for potential future use.
+     * However, since the assignment does not specify how the trading activity records should be used, I have decided to print activities to the terminal and store all the activities in a file named "operationHistory.csv" for potential future use.
