@@ -55,7 +55,7 @@ public class DataHandler {
 
     public static String getFeatureByExchange(String exchange, String featureName) {
         try {
-            String fileName = "src\\main\\java\\au\\com\\livewirelabs\\assignment\\Config.json";
+            String fileName = "src\\main\\java\\au\\com\\livewirelabs\\assignment\\config.json";
             JSONObject jo = (JSONObject) new JSONParser().parse(new FileReader(fileName));;
             return String.valueOf(((Map)jo.get(exchange)).get(featureName));
         } catch (Exception e) {
