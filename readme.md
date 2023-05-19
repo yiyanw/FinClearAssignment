@@ -1,6 +1,8 @@
 # FinClear Interview Assignment
 * Project Structure 
   * Guice + Maven + Java 8
+* Development IDE
+  * IntelliJ IDEA 2023.1.1 (Ultimate Edition)
 * Some Assumptions
   1. The definition of "Income"
      * According to the assignment description:
